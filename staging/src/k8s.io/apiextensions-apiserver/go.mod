@@ -10,7 +10,7 @@ require (
 	github.com/google/cel-go v0.9.0
 	github.com/google/go-cmp v0.5.5
 	github.com/google/gofuzz v1.1.0
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 	github.com/googleapis/gnostic v0.5.5
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
@@ -124,6 +124,8 @@ require (
 )
 
 replace (
+	github.com/google/uuid => github.com/google/uuid v1.1.2
+	github.com/kr/pretty => github.com/kr/pretty v0.2.1
 	k8s.io/api => ../api
 	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
 	k8s.io/apimachinery => ../apimachinery
